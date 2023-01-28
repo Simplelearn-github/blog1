@@ -1,5 +1,5 @@
-Marquee{
-   padding-top: 10px;
+strong{
    font-size: larger;
-   font-family:cursive
+   font-weight: 600;
+  padding-top: 10px;
 }

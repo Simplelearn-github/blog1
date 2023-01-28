@@ -6,7 +6,7 @@ import './Top.css'
 const Top = () => {
   return (
     <div>
-        <Marquee>Stay Healthy, Be Happy & Keep Smiling Always!!</Marquee>
+        <Marquee ><strong>Stay Healthy, Be Happy & Keep Smiling Always!!</strong></Marquee>
     </div>
   )
 }
