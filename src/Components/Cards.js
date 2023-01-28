@@ -1,9 +1,11 @@
 import React from 'react'
+import { Col, Row } from 'react-bootstrap'
 import './Cards.css'
 
 const Cards = () => {
   return (
-    <div>
+    <div><Row>
+         <Col sm={9}  >
         <div class="main">
   <h1>Responsive Card Grid Layout</h1>
   <ul class="cards">
@@ -69,8 +71,12 @@ const Cards = () => {
     </li>
   </ul>
 </div>
+</Col>
+<Col sm={3}>
+    <h2>hi NAveen</h2>
+</Col>
+</Row>
 
-<h3 class="made_by">Made with ♡</h3>
     </div>
   )
 }
