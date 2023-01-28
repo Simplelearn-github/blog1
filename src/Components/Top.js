@@ -1,5 +1,7 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 import './Top.css'
+
 
 const Top = () => {
   return (
