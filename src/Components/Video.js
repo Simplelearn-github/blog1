@@ -8,14 +8,16 @@ const Video = () => {
   return (
     <Container>
     <Row>
-      <Col sm={9}>
+      <Col sm={9}  >
       <Card.Group itemsPerRow={3}>
+      
     <Card color='red' image={spiritual} />
     <Card  href='#card-example-link-card' color='orange' image={spiritual} />
     <Card color='yellow' image={spiritual} />
     <Card color='olive' image={spiritual} />
     <Card color='green' image={spiritual} />
     <Card color='teal' image={spiritual} />
+  
    
   </Card.Group>
 
