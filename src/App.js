@@ -1,20 +1,16 @@
-
-import Cards from './Componets/Cards';
-import Disclaimer from './Componets/Disclaimer';
-import Footer from './Componets/Footer';
-import Top from './Componets/Top';
-import Video from './Componets/Video';
+import React from "react";
+import Top from "./Components/Top";
+import './App.css'
+import Header from "./Components/Header";
+import Video from "./Components/Video";
 
 function App() {
   return (
     <div className="App">
-      <div><Top/></div>
-      <div> <Video/></div>
-      <div><Cards/></div>
-      <div><Disclaimer/></div>
-      <div><Footer/></div>
-      
-     
+
+      <div className="top"><Top/></div>
+      <div  className="border border-white"><Header/></div>
+     <div className="videos"><Video/></div>
     
     </div>
   );
