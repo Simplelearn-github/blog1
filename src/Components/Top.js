@@ -4,7 +4,7 @@ import './Top.css'
 const Top = () => {
   return (
     <div>
-        <marquee>Stay Healthy, Be Happy & Keep Smiling Always!!</marquee>
+        <Marquee>Stay Healthy, Be Happy & Keep Smiling Always!!</Marquee>
     </div>
   )
 }
