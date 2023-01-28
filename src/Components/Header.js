@@ -5,12 +5,12 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div>
+    <Container>
     <Row>
       <Col sm={2}><img src={mysta} alt='a/b'/></Col>
       <Col sm={10} className='quote'>Sweet Divine Gratitude</Col>
     </Row>
-    </div>
+    </Container>
   )
 }
 
